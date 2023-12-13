@@ -1,0 +1,462 @@
+body{
+	background-color: #222229;
+	font-family: helvetica;
+}
+
+a{
+	text-decoration: none;
+	color: #AD956B
+}
+
+.hautdepage{
+	display: flex;
+}
+
+.initial{
+	width: 10%;
+}
+
+.menu{
+	font-size: 1.5vw;
+	text-align: center;
+	color: #7CFFC4;
+	padding-top: 3%;
+	border-top-width: 3%;
+	margin-left: 37%;
+	margin-right: 35%;
+}
+.burgernav{
+	display: none;
+}
+.connexion {
+	width: 9%;
+	height: 20%;
+	margin-top: 4%;
+   background-color: #47E4A5;
+   color: #3E3E47;
+   border-radius: 10px;
+   transition: background-color 0.3s ease;
+   margin-left: 1.5%;
+   font-size: 1.2vw;
+}
+
+.connexion{
+	.login-button:hover 
+ 	transform: scale(1.1);
+}
+
+ .connexion:hover {
+    background-color: #3E3E47;
+    color: #47E4A5;
+}
+
+.page1{
+	width: 100%;
+}
+
+.imgprincipale{
+	width: 100%;
+	position: relative;
+}
+
+.titre{
+	position: absolute;
+	top: 22vw;
+	left: 30%;
+	right: 20%;
+}
+
+.bienvenue{
+	background-image: linear-gradient(to right, #3F4E48, #47E4A5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 7vw;
+	margin-bottom: 3%;
+}
+
+.sous-titre{
+	background-image: linear-gradient(to right, #3F4E48, #47E4A5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 2.5vw;
+	margin-top: 0%;
+	margin-left: 3.5vw;
+	margin-bottom: 10%;
+}
+
+.bouton{
+	width: ;
+	height: ;
+}
+
+.rounded-button {
+    background-color: #47E4A5;
+    color: #3E3E47;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-left: 1.5%;
+    font-size: 1vw;
+}
+
+ .rounded-button:hover {
+    background-color: #3E3E47;
+    color: #47E4A5;
+}
+
+.presentation{
+	color: #7CFFC4;
+	margin-left: 40%;
+	margin-bottom: 5%;
+	font-size: 2.3vw;
+}
+
+.resppresentation{
+	display: flex;
+}
+
+@media(max-width: 800px){
+	.resppresentation{
+		flex-direction: column;
+		height: auto;
+		font-size: 5px;
+	.	
+	}
+}
+
+.presentation1{
+	text-align: center;
+	float: left;
+	background-color: #3E3E47;
+	width: 20%;
+	margin-left: 10%;
+	margin: auto;
+	border: solid 1px white;
+	font-size: 1.1vw;
+}
+
+.moi{
+	color: #7CFFC4;
+}
+
+.imgprofil{
+	width: 7%;
+	margin-left: 2%;
+}
+
+.para1{
+	color: white;
+}
+
+.monparcours{
+	color: #7CFFC4;
+}
+
+.presentation2{
+	text-align: center;
+	float: center;
+	background-color: #3E3E47;
+	width: 20%;
+	margin-left: 10%;
+	margin: auto;
+	border: solid 1px white;
+	font-size: 1.1vw;
+}
+
+.imgparcours{
+	width: 8%;
+}
+
+.finalite{
+	color: #7CFFC4;
+}
+
+.imgfinalite{
+	width: 8%;
+}
+
+.presentation3{
+	text-align: center;
+	float: right;
+	background-color: #3E3E47;
+	width: 20%;
+	margin-left: 9%;
+	margin-right: 10%;
+	margin: auto;
+	border: solid 1px white;
+	font-size: 1.1vw;
+}
+
+.competences{
+	color: #7CFFC4;
+	margin-top: 25%;
+	margin-left: 40%;
+	font-size: 2.3vw;
+	
+}
+.box-timeline{
+	position: relative;
+	margin-top: 5%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.ligne{
+	height: 1000px;
+	width: 8px;
+	margin: 0 auto;
+	background: #E3E3E3;
+}
+
+.htmlpng{
+	width: 23%;
+}
+
+.csspng{
+	width: 23%;
+	margin-left: 30%;
+}
+
+.rond{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #E3E3E3;
+	position: absolute;
+	border: 1px solid;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+
+.r1{top: 0px;}
+.r2{top: 306px;}
+.r3{top: 612px;}
+.r4{top: 920px;}
+
+.box{
+	width: 36%;
+	min-height: 200px;
+	padding: 20px;
+	border-radius: 10px;
+	height: auto;
+	background: #E3E3E3;
+	box-shadow: 0 10px 15px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.b1{
+	top: 0px;
+	left: calc(50% - 30%);
+}
+
+.b2{
+	top: 306px;
+	left: calc(50% + 30%);
+}
+
+.b3{
+	top: 612px;
+	left: calc(50% - 30%);
+}
+
+.b4{
+	top: 920px;
+	left: calc(50% + 30%);
+}
+
+.competences{
+	color: #7CFFC4;
+	margin-top: 25%;
+	margin-left: 40%;
+	font-size: 2.3vw;
+}
+
+.projetdisney{
+	position: relative;
+	width: 40%;
+	margin-left: 3vw;
+	margin-top: 7vw;
+	border: solid 1px white;
+}
+
+.paraprojetdisney{
+	position: absolute;
+	color: #a7ffd7;
+	margin-left: 50vw;
+ 	margin-top: -17vw;
+   font-size: 1.5vw;
+}
+
+.cvdupont{
+	position: relative;
+	color: #a7ffd7;
+	margin-top: 18vw;
+	margin-left: 5vw;
+	font-size: 1.5vw;
+}
+
+.cvdudontimg{
+	width: 30%;
+   margin-left: 60vw;
+   margin-top: -17vw;
+}
+
+.projet1{
+	margin-top: 4vw;
+}
+
+.stylecontact{
+	color: #7CFFC4;
+	font-size: 1.5vw;
+}
+
+.telephone{
+	width: 10%;
+}
+
+.stylecontact2{
+	color: #7CFFC4;
+	font-size: 1.5vw;
+	text-align: center;
+	margin-left: -15vw;
+}
+
+.contacttitle{
+	color: #7CFFC4;
+	margin-top: 25%;
+	margin-left: 43%;
+	font-size: 2.3vw;
+}
+
+.contact1{
+	margin-top: 8vw;
+	margin-left: 29vw;
+}
+
+.contact2{
+	margin-left: 53vw;
+	margin-top: -10vw;
+}
+
+.contact3{
+	margin-left: 75vw;
+	margin-top: -14vw;
+}
+
+.mail{
+	width: 12%;
+	margin-left: 5vw;
+}
+
+.adresse{
+	width: 30%;
+}
+
+.footer{
+	background-color: #1F1F1F;
+	margin-top: 10vw;
+   text-align: center;
+   height: 10vw;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+.parafooter{
+	color: white;
+	margin-top: 4vw;
+	font-size: 1.2vw;
+}
+
+@media (max-width: 600px){
+	.ligne{
+		margin-left: calc(80% - 4px) !important;
+	}
+	.rond{
+		left: 80%;
+	}
+	.b2{
+		left: calc(50% - 30%);
+	}
+	.b4{
+		left: calc(50% - 30%);
+	}
+	.box-timeline{
+		margin-left: 70px;
+	}
+	.box{
+		width: 60%;
+		min-width: 200px;
+	}
+	.hautdepage{
+		justify-content: space-between;
+		align-items: center;
+	}
+	.page1 .bouton{
+		display: none;
+	}
+	button.connexion{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	.burgernav{
+		display: block;
+	}
+	.burgernav .burger .burgerclose{
+		display: none;
+	}
+	.burgeropen.active{
+		display: none;
+	}
+	.burgernav .burger .burgerclose.active{
+		display: block;
+	}
+	.burgermenu{
+		display:none;
+		position: absolute;
+    	z-index: 1000;
+    	left: 0%;
+    	font-size: 12px;
+    	width: 100%;
+
+	}
+	.burgermenu.active{
+		display:block;
+		position: absolute;
+    	z-index: 1000;
+    	left: 0%;
+    	font-size: 12px;
+    	width: 100%;
+
+	}
+	.burgermenu div{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		background-color: rgba(0, 0, 0, 0.7);
+		padding-top: 5px;
+	}
+
+}
+@media (max-width:370px){
+	.ligne{
+		margin-left: calc(90% - 4px) !important;
+	}
+	.rond{
+		left: 90%;
+		width: 50px;
+		height: 50px;
+	}
+}
+
+
+
+
